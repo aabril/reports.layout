@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "clean" : "rm -rf dist/*", 
+    "clone.js": "cp -R src/js dist/",
     "build.bower": "bower --config.cwd=./src/ --config.directory='../dist/bower_components' install",
     "build.jade": "jade src/jade/index.jade --pretty -o dist/",
     "serve": "serve dist/"
