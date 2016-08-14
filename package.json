@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build.jade": "jade src/jade/index.jade -o dist/",
+    "serve": "serve dist/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2/issues"
   },
-  "homepage": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2#readme"
+  "homepage": "https://github.com/BlackrockDigital/startbootstrap-sb-admin-2#readme",
+  "devDependencies": {
+    "jade": "^1.11.0",
+    "serve": "^1.4.0"
+  }
 }
