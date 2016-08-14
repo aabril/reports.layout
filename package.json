@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "build.bower": "bower --config.cwd=./src/ --config.directory='../dist/bower_components' install",
     "build.jade": "jade src/jade/index.jade --pretty -o dist/",
     "serve": "serve dist/"
   },
