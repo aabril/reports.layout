@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build.jade": "jade src/jade/index.jade -o dist/",
+    "build.jade": "jade src/jade/index.jade --pretty -o dist/",
     "serve": "serve dist/"
   },
   "repository": {
